@@ -1,0 +1,19 @@
+/* Estilos CSS para las imágenes */
+.developer {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.developer img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #440e0e;
+}
+
+.developer p {
+    margin-top: 10px;
+    font-size: 16px;
+}

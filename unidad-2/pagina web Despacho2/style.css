@@ -1,0 +1,96 @@
+/*header style*/
+
+header {
+
+    text-align: center; 
+ 
+    padding: 20px;
+ 
+ }
+
+ body {
+    background-color: rgb(188, 184, 197);
+}
+
+ /*navigation menu style*/
+
+nav {
+
+    text-align: center;
+ 
+    word-spacing: 30px;
+ 
+    Padding: 30px;
+
+    background-color: rgb(219, 235, 245);
+ 
+ }
+
+nav a {
+
+    color: #000000;
+ 
+    text-decoration: none;
+ 
+    font-size: larger;
+ 
+ }
+
+
+
+/*creating the two-column layout*/
+
+*{
+
+   box-sizing: border-box;
+
+}
+
+.row {
+
+    display: flex;
+ 
+    flex-wrap: wrap;
+ 
+ } 
+
+
+
+post-text-box {
+
+    flex: 70%;
+ 
+    padding: 20px;
+ 
+ }
+
+.profile {
+
+    flex: 70%;
+ 
+    padding: 20px;
+ 
+ }
+
+.profile image {
+
+    width: 100px;
+ 
+    display: block;
+ 
+    margin-left: 0;
+ 
+    margin-right: 0;
+ 
+ }
+
+.profile h1 {
+
+    text-align: center;
+ 
+ }
+
+
+
+ 
+  
